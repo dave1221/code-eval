@@ -20,7 +20,6 @@ from core import filter_code, run_eval, fix_indents
 import os  # 操作系统相关功能，如文件路径操作
 import torch  # PyTorch库，用于深度学习模型的构建和训练
 
-# TODO: 使用python-dotenv管理环境变量
 # 在这里添加Hugging Face的访问令牌
 TOKEN = "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"  # 用于访问受限的模型或数据，需要填写有效的令牌
 
